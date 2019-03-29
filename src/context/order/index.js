@@ -7,7 +7,7 @@ const getOrderDetails = async uri => {
 
   if (orderDetails.currency_code !== 'AUD') {
     orderTotal = await convert(orderDetails);
-    orderTotal = Math.round( orderTotal * 1e2 ) / 1e2;
+    orderTotal = Math.round(orderTotal * 1e2) / 1e2;
   }
 
   return {
