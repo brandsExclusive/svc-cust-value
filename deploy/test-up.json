@@ -1,0 +1,13 @@
+{
+  "name": "api-user-customer-value-test",
+  "profile": "up-deployer",
+  "regions": ["ap-southeast-2"],
+  "environment": {
+    "APP_ENV": "test",
+    "API_ENDPOINT": "https://test-api.luxgroup.com",
+    "AUTH_HOST": "https://test-api.luxgroup.com"
+  },
+  "error_pages": {
+    "disable": true
+  }
+}

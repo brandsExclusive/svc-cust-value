@@ -1,0 +1,31 @@
+{
+  "name": "svc-cust-value",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ethan Huynh <ethan.huynh@luxuryescapes.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node src/start.js",
+    "dev": "nodemon src/start.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.420.0",
+    "body-parser": "^1.18.3",
+    "dotenv-safe": "^6.1.0",
+    "express": "^4.16.4",
+    "jwt-decode": "^2.2.0",
+    "lru-cache": "^5.1.1",
+    "node-fetch": "^2.3.0",
+    "pretty-hrtime": "^1.0.3",
+    "query-string": "^6.4.2",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "nodemon": "^1.18.10",
+    "prettier": "^1.16.4"
+  }
+}

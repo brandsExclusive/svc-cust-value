@@ -1,0 +1,13 @@
+{
+  "name": "api-user-customer-value-production",
+  "profile": "up-deployer",
+  "regions": ["ap-southeast-2"],
+  "environment": {
+    "APP_ENV": "production",
+    "API_ENDPOINT": "https://api.luxgroup.com",
+    "AUTH_HOST": "https://api.luxgroup.com"
+  },
+  "error_pages": {
+    "disable": true
+  }
+}
